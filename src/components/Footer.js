@@ -6,9 +6,10 @@ function Footer() {
     <FooterContainer className="main-footer">
       <div className="phantom"></div>
       <div className="footer-middle">
-        <div className="footer-bottom">
-            <h5 className="text-center">California History from a Native Viewpoint</h5>
-            <p className="text-xs-center text-center">&copy;{new Date().getFullYear()} Lands Of Our Ancestors </p>
+        <div className="footer-bottom text-center">
+            <h5>California History from a Native Viewpoint</h5>
+            <h5><a href="contact">Contact Us</a></h5>
+            <p className="text-xs-center">&copy;{new Date().getFullYear()} Lands Of Our Ancestors </p>
         </div>
       </div>
     </FooterContainer>
@@ -21,7 +22,7 @@ const FooterContainer = styled.footer`
   .phantom {
     display: block;
     padding: 20px;
-    height: 100px;
+    height: 120px;
     width: 100;
   }
   .text-center {
