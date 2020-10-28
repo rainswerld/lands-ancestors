@@ -8,10 +8,11 @@ import Banner from './components/Banner.js'
 import Footer from './components/Footer'
 import Endorsements from './components/Endorsements/Endorsements.js'
 import StudentRes from './components/Students/StudentRes.js'
+import Contact from './components/Contact/Contact.js'
 
 function App() {
   return (
-    <Router>
+    <Router className="wrapper">
       <Navbar />
       <Switch>
         <Route exact path='/' render={() => (
@@ -27,8 +28,11 @@ function App() {
         <Route exact path='/students' render={() => (
             <StudentRes />
         )}/>
+        <Route exact path='/contact' render={() => (
+            <Contact />
+        )}/>
       </Switch>
-      <Footer />
+      <Footer className="footer"/>
     </Router>
   );
 }
