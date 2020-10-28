@@ -1,0 +1,16 @@
+.books {
+  padding: 25px;
+}
+
+.book {
+  display: block;
+  width: 100%;
+}
+
+.card-color {
+  background-color: #FFEDC4;
+}
+
+.btn {
+  margin: 2px;
+}

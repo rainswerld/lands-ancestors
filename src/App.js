@@ -1,25 +1,35 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Fragment } from 'react';
 import './App.css';
+import Navbar from './components/Navbar.js'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import BookCard from './components/Cards/CardsUI.js'
+import Welcome from './components/Welcome/Welcome.js'
+import Banner from './components/Banner.js'
+import Footer from './components/Footer'
+import Endorsements from './components/Endorsements/Endorsements.js'
+import StudentRes from './components/Students/StudentRes.js'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Navbar />
+      <Switch>
+        <Route exact path='/' render={() => (
+          <Fragment>
+            <Banner />
+            <Welcome />
+            <BookCard className="books"/>
+          </Fragment>
+        )}/>
+        <Route exact path='/endorsements' render={() => (
+            <Endorsements />
+        )}/>
+        <Route exact path='/students' render={() => (
+            <StudentRes />
+        )}/>
+      </Switch>
+      <Footer />
+    </Router>
   );
 }
 

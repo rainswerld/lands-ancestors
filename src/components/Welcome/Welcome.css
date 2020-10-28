@@ -1,0 +1,14 @@
+:root {
+  --font: Papyrus, fantasy, sans-serif;
+}
+
+.welcome {
+  margin: 20px;
+  padding: 5px;
+}
+
+.header-text {
+  font-size: 30px;
+  text-align: center;
+  font-family: var(--font);
+}
