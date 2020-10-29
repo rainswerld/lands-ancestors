@@ -1,12 +1,12 @@
 import React from 'react'
-import { CardDeck, Card, Button } from 'react-bootstrap'
+import { CardDeck, Card, Button, Link } from 'react-bootstrap'
 import './CardsUI.css'
 
 function BookCard() {
   return (
     <CardDeck className="books">
       <Card className="book card-color">
-          <Card.Img variant="top" src="https://bloximages.chicago2.vip.townnews.com/syvnews.com/content/tncms/assets/v3/editorial/f/d5/fd5d3812-73d4-5a39-841a-c114bfcd8f87/5bac07f545080.preview.jpg?crop=313%2C235%2C0%2C132&resize=1200%2C900&order=crop%2Cresize" alt="Lands Of Our Ancestors Book One" />
+          <a href="https://www.amazon.com/Lands-Our-Ancestors-Gary-Robinson/dp/0692780181/ref=sr_1_1?dchild=1&keywords=lands+of+our+ancestors&qid=1603908795&sr=8-1" target="_blank"><Card.Img variant="top" src={require('../../assets/LOOA-1-FrontCvr.jpg')} alt="Lands Of Our Ancestors Book One" /></a>
           <Card.Body className="card-color">
             <Card.Title>Book One: Mission Period</Card.Title>
             <Card.Text>
@@ -18,7 +18,7 @@ function BookCard() {
           </Card.Footer>
       </Card>
       <Card className="book">
-          <Card.Img variant="top" src="https://bloximages.chicago2.vip.townnews.com/syvnews.com/content/tncms/assets/v3/editorial/f/d5/fd5d3812-73d4-5a39-841a-c114bfcd8f87/5bac07f545080.preview.jpg?crop=313%2C235%2C0%2C132&resize=1200%2C900&order=crop%2Cresize" alt="Lands Of Our Ancestors Book One" />
+          <a href="https://www.amazon.com/Lands-Our-Ancestors-Book-Two/dp/0980027284/ref=sr_1_3?dchild=1&keywords=lands+of+our+ancestors&qid=1603908795&sr=8-3" target="_blank"><Card.Img variant="top" src={require('../../assets/LOOA-2-FrontCvr.jpg')} alt="Lands Of Our Ancestors Book One" /></a>
           <Card.Body className="card-color">
             <Card.Title>Book Two: Mexican Rancho Era</Card.Title>
             <Card.Text>
@@ -30,7 +30,7 @@ function BookCard() {
           </Card.Footer>
       </Card>
       <Card className="book">
-          <Card.Img variant="top" src="https://bloximages.chicago2.vip.townnews.com/syvnews.com/content/tncms/assets/v3/editorial/f/d5/fd5d3812-73d4-5a39-841a-c114bfcd8f87/5bac07f545080.preview.jpg?crop=313%2C235%2C0%2C132&resize=1200%2C900&order=crop%2Cresize" alt="Lands Of Our Ancestors Book One" />
+          <a href="https://www.amazon.com/Lands-our-Ancestors-Book-Three/dp/0578495163/ref=sr_1_2?dchild=1&keywords=lands+of+our+ancestors&qid=1603908795&sr=8-2" target="_blank"><Card.Img variant="top" src={require('../../assets/LOOA-3-FrontCvr.jpg')} alt="Lands Of Our Ancestors Book One" /></a>
           <Card.Body className="card-color">
             <Card.Title>Book Three: Gold Rush-Statehood</Card.Title>
             <Card.Text>

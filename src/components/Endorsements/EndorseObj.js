@@ -27,7 +27,7 @@ const endorsements = {
   marcusV: {
     para: 'Presenting the question of genocide and terror in our California history is a difficult  proposition. However, Mr. Robinson, in Lands of our Ancestors, creates an interesting and  provocative narrative of a Chumash family, interaction with European culture and issues that  are essential to the Chumash regarding honor, valor and character.',
     para2: 'Lands of our Ancestors is a good novel for our children--a pleasurable read that  explains a serious period in the setting of Chumash families, society and the challenges of the  massive intrusion towards a People. A creative, inventive narrative of atonement, that with  proper orientation and instructions, can lead to further discussion, which has long been  ignored. Makes a great read and gift.',
-    name: 'Marcus V. Lopez Chairman , Barbareño Chumash Tribal Council Snr. Producer, American Indian Airwaves/Coyote Radio/KPFK, Southern California'
+    name: 'Marcus V. Lopez Chairman, Barbareño Chumash Tribal Council Snr. Producer, American Indian Airwaves/Coyote Radio/KPFK, Southern California'
   }
 }
 
