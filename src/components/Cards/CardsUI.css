@@ -3,6 +3,11 @@
   width: 100%
 }
 
+.card {
+  margin: 0 auto;
+  float: none;
+}
+
 .book {
   display: flex;
   justify-content: center;
@@ -14,4 +19,5 @@
 
 .btn {
   margin: 2px;
+  justify-content: center;
 }

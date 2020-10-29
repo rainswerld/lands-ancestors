@@ -4,8 +4,8 @@ import './CardsUI.css'
 
 function BookCard() {
   return (
-    <CardDeck className="books">
-      <Card className="book card-color">
+    <CardDeck className="books justify-content-center">
+      <Card className="book card card-color">
           <a href="https://www.amazon.com/Lands-Our-Ancestors-Gary-Robinson/dp/0692780181/ref=sr_1_1?dchild=1&keywords=lands+of+our+ancestors&qid=1603908795&sr=8-1" target="_blank"><Card.Img variant="top" src={require('../../assets/LOOA-1-FrontCvr.jpg')} alt="Lands Of Our Ancestors Book One" /></a>
           <Card.Body className="card-color">
             <Card.Title>Book One: Mission Period</Card.Title>
@@ -17,7 +17,7 @@ function BookCard() {
             <small className="text-muted btn"><Button href="https://www.amazon.com/Lands-Our-Ancestors-Gary-Robinson/dp/0692780181/ref=sr_1_1?dchild=1&keywords=lands+of+our+ancestors&qid=1603908795&sr=8-1" target="_blank" variant="primary">Book</Button><Button href="https://www.amazon.com/Lands-Our-Ancestors-Teachers-Guide/dp/098002725X/ref=sr_1_1?dchild=1&keywords=land+of+our+ancestors+teachers&qid=1603908872&sr=8-1" target="_blank" variant="primary">Teacher Guide</Button></small>
           </Card.Footer>
       </Card>
-      <Card className="book">
+      <Card className="book card">
           <a href="https://www.amazon.com/Lands-Our-Ancestors-Book-Two/dp/0980027284/ref=sr_1_3?dchild=1&keywords=lands+of+our+ancestors&qid=1603908795&sr=8-3" target="_blank"><Card.Img variant="top" src={require('../../assets/LOOA-2-FrontCvr.jpg')} alt="Lands Of Our Ancestors Book One" /></a>
           <Card.Body className="card-color">
             <Card.Title>Book Two: Mexican Rancho Era</Card.Title>
@@ -29,7 +29,7 @@ function BookCard() {
             <small className="text-muted btn"><Button href="https://www.amazon.com/Lands-Our-Ancestors-Book-Two/dp/0980027284/ref=sr_1_3?dchild=1&keywords=lands+of+our+ancestors&qid=1603908795&sr=8-3" target="_blank" variant="primary">Book</Button><Button href="https://www.amazon.com/Lands-Ancestors-Book-Teachers-Guide/dp/0692162585/ref=sr_1_3?dchild=1&keywords=land+of+our+ancestors+teachers&qid=1603908872&sr=8-3" target="_blank" variant="primary">Teacher Guide</Button></small>
           </Card.Footer>
       </Card>
-      <Card className="book">
+      <Card className="book card">
           <a href="https://www.amazon.com/Lands-our-Ancestors-Book-Three/dp/0578495163/ref=sr_1_2?dchild=1&keywords=lands+of+our+ancestors&qid=1603908795&sr=8-2" target="_blank"><Card.Img variant="top" src={require('../../assets/LOOA-3-FrontCvr.jpg')} alt="Lands Of Our Ancestors Book One" /></a>
           <Card.Body className="card-color">
             <Card.Title>Book Three: Gold Rush-Statehood</Card.Title>
