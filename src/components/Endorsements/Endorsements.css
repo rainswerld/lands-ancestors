@@ -1,9 +1,28 @@
-.carousel-container {
-  margin-bottom: 20px;
-  padding: 10px;
+.bg-color {
+  background-color: rgba(255, 237, 196, 1);
 }
 
-.car-img {
-  width: 100%;
-  height: auto;
+.chumash {
+  color: #5E0707;
+  padding: 10px;
+  border: 1px solid #D3BDA1;
+  box-shadow: 5px 10px #D3BDA1;
+  text-align: center;
+}
+
+.endorse-header {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.big {
+  text-align: center;
+  font-style: italic;
+  padding: 15px;
+  color: #5E0707;
+}
+
+.shadow-box {
+  border: 1px solid black;
+  box-shadow: 5px 10px black;
 }

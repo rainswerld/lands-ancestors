@@ -3,12 +3,20 @@
 }
 
 .welcome {
-  margin: 20px;
-  padding: 5px;
+  border: 1px solid #D3BDA1;
+  margin: 25px;
+  padding: 25px;
+  box-shadow: 5px 10px #D3BDA1;
 }
 
 .header-text {
-  font-size: 30px;
+  color: #5E0707;
+  font-size: 50px;
   text-align: center;
   font-family: var(--font);
+}
+
+.welcome-text {
+  font-size: 20px;
+  color: #5E0707;
 }

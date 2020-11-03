@@ -29,6 +29,7 @@ const FooterContainer = styled.footer`
     text-align: center;
   }
   .footer-middle {
+    font-size: 20px;
     background: #000;
     margin-top: 10px;
     padding: 5px;
