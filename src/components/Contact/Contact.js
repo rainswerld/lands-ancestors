@@ -4,7 +4,7 @@ import './Contact.css'
 function Contact() {
   return (
     <div className='center-text'>
-      <h1>Contact The Author</h1>
+      <h1 className="contact-header">Contact The Author</h1>
       <h4>To get a quote for your School or Organization Contact Tribal Eye Productions</h4>
       <div className="container">
         <div className="row">

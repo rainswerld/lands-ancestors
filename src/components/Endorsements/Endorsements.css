@@ -1,11 +1,13 @@
-.bg-color {
-  background-color: rgba(255, 237, 196, 1);
+.bg-colors {
+  background-color: rgb(112, 121, 113, 1);
+  margin-bottom: -40px;
 }
 
 .chumash {
   color: #5E0707;
   padding: 10px;
-  border: 1px solid #D3BDA1;
+  background-color: #EDDCC7;
+  border: 1px solid #CBB497;
   box-shadow: 5px 10px #D3BDA1;
   text-align: center;
 }
@@ -24,5 +26,6 @@
 
 .shadow-box {
   border: 1px solid black;
+  background-color: #EDDCC7;
   box-shadow: 5px 10px black;
 }

@@ -1,0 +1,25 @@
+.teacher-guides {
+  padding: 40px;
+  width: 100%;
+  margin-bottom: -20px;
+  margin-right: -20px;
+}
+
+.card {
+  margin: 0 auto;
+  float: none;
+}
+
+.book {
+  display: flex;
+  justify-content: center;
+}
+
+.card-color {
+  background-color: #FFEDC4;
+}
+
+.btn {
+  margin: 2px;
+  justify-content: center;
+}

@@ -9,6 +9,13 @@
   box-shadow: 5px 10px #D3BDA1;
 }
 
+.welcome-teachers {
+  border: 1px solid #D3BDA1;
+  margin: 25px;
+  padding: 25px;
+  box-shadow: 5px 10px #D3BDA1;
+}
+
 .header-text {
   color: #5E0707;
   font-size: 50px;
@@ -16,7 +23,31 @@
   font-family: var(--font);
 }
 
+.header-text-teach {
+  color: #5E0707;
+  font-size: 40px;
+  text-align: center;
+  font-family: var(--font);
+}
+
 .welcome-text {
   font-size: 20px;
   color: #5E0707;
+  text-align: center;
+}
+
+.welcome-text-2 {
+  text-align: center;
+  font-size: 20px;
+  color: #5E0707;
+}
+
+.welcome-text-teach {
+  text-align: center;
+  font-size: 15px;
+  color: #5E0707;
+}
+
+.quote {
+  font-style: italic;
 }

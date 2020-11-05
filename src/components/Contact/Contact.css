@@ -1,8 +1,11 @@
 .center-text {
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: -10px;
   height: 100%;
+}
+
+.contact-header {
+  padding: 30px;
 }
 
 .contact {
