@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/lands-ancestors/static/css/main.62cdbe01.chunk.css",
-    "main.js": "/lands-ancestors/static/js/main.bd703006.chunk.js",
-    "main.js.map": "/lands-ancestors/static/js/main.bd703006.chunk.js.map",
+    "main.css": "/lands-ancestors/static/css/main.e290baaf.chunk.css",
+    "main.js": "/lands-ancestors/static/js/main.5aa462bd.chunk.js",
+    "main.js.map": "/lands-ancestors/static/js/main.5aa462bd.chunk.js.map",
     "runtime-main.js": "/lands-ancestors/static/js/runtime-main.d2e8519f.js",
     "runtime-main.js.map": "/lands-ancestors/static/js/runtime-main.d2e8519f.js.map",
     "static/css/2.824a2e44.chunk.css": "/lands-ancestors/static/css/2.824a2e44.chunk.css",
-    "static/js/2.e0c6ca81.chunk.js": "/lands-ancestors/static/js/2.e0c6ca81.chunk.js",
-    "static/js/2.e0c6ca81.chunk.js.map": "/lands-ancestors/static/js/2.e0c6ca81.chunk.js.map",
+    "static/js/2.828c392b.chunk.js": "/lands-ancestors/static/js/2.828c392b.chunk.js",
+    "static/js/2.828c392b.chunk.js.map": "/lands-ancestors/static/js/2.828c392b.chunk.js.map",
     "index.html": "/lands-ancestors/index.html",
-    "precache-manifest.be1af4ea9465acd023f3efc3389a999a.js": "/lands-ancestors/precache-manifest.be1af4ea9465acd023f3efc3389a999a.js",
+    "precache-manifest.fd8106d0a081e16d224f3488cf71c13c.js": "/lands-ancestors/precache-manifest.fd8106d0a081e16d224f3488cf71c13c.js",
     "service-worker.js": "/lands-ancestors/service-worker.js",
     "static/css/2.824a2e44.chunk.css.map": "/lands-ancestors/static/css/2.824a2e44.chunk.css.map",
-    "static/css/main.62cdbe01.chunk.css.map": "/lands-ancestors/static/css/main.62cdbe01.chunk.css.map",
-    "static/js/2.e0c6ca81.chunk.js.LICENSE.txt": "/lands-ancestors/static/js/2.e0c6ca81.chunk.js.LICENSE.txt",
+    "static/css/main.e290baaf.chunk.css.map": "/lands-ancestors/static/css/main.e290baaf.chunk.css.map",
+    "static/js/2.828c392b.chunk.js.LICENSE.txt": "/lands-ancestors/static/js/2.828c392b.chunk.js.LICENSE.txt",
     "static/media/Ap-2.jpg": "/lands-ancestors/static/media/Ap-2.a4424cb0.jpg",
     "static/media/Ap-picture.jpg": "/lands-ancestors/static/media/Ap-picture.b996bd1f.jpg",
     "static/media/BattleScene.jpg": "/lands-ancestors/static/media/BattleScene.0810ac8f.jpg",
@@ -42,8 +42,8 @@
   "entrypoints": [
     "static/js/runtime-main.d2e8519f.js",
     "static/css/2.824a2e44.chunk.css",
-    "static/js/2.e0c6ca81.chunk.js",
-    "static/css/main.62cdbe01.chunk.css",
-    "static/js/main.bd703006.chunk.js"
+    "static/js/2.828c392b.chunk.js",
+    "static/css/main.e290baaf.chunk.css",
+    "static/js/main.5aa462bd.chunk.js"
   ]
 }
