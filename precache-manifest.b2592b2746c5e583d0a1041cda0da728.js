@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2b80c1819566eb76d6730ef6a3cc45fb",
+    "revision": "cf58620c05104b45c95b5725de18b9c9",
     "url": "/lands-ancestors/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lands-ancestors/static/css/2.824a2e44.chunk.css"
   },
   {
-    "revision": "8553e2612b678959731b",
+    "revision": "09d664785fcb2909c5c7",
     "url": "/lands-ancestors/static/css/main.e290baaf.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lands-ancestors/static/js/2.828c392b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8553e2612b678959731b",
-    "url": "/lands-ancestors/static/js/main.6b9844bf.chunk.js"
+    "revision": "09d664785fcb2909c5c7",
+    "url": "/lands-ancestors/static/js/main.b382a2d1.chunk.js"
   },
   {
     "revision": "682047937084ddfb6d37",
