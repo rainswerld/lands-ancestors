@@ -23,7 +23,7 @@ const endorsements = {
     name: 'Dessa Drake, 4th Grade Teacher, Templeton, CA'
   },
   paulG: {
-    big: 'This book provides an inside look at colonialism and the drastic changes  mposed upon the native peoples of California.',
+    big: 'This book provides an inside look at colonialism and the drastic changes imposed upon the native peoples of California.',
     para: 'Lands of Our Ancestors Book One is an accessible, first-hand account of what life among the Chumash at the time of the Spanish invasion may have been like. Through the eyes of a native boy, Kilik, this book provides an inside look at colonialism and the drastic changes  mposed upon the native peoples of California. Rather than building a mission in fourth grade, students should read this book to gain a better understanding of the violence and upheaval caused by the Spaniard\'s "civilizing" mission. Highly recommended.',
     name: 'Paul H. Gelles, Ph.D.; Former Professor of Anthropology, University of California'
   },
@@ -34,7 +34,7 @@ const endorsements = {
     name: 'Carey McKinnon, Branch Supervisor, Santa Barbara Library System'
   },
   marcusV: {
-    big: 'A creative, inventive narrative of atonement, that with proper orientation and instructions, can lead to further discussion, which has long been ignored.',
+    big: 'A creative, inventive narrative of atonement, that...can lead to further discussion, which has long been ignored.',
     para: 'Presenting the question of genocide and terror in our California history is a difficult  proposition. However, Mr. Robinson, in Lands of our Ancestors, creates an interesting and  provocative narrative of a Chumash family, interaction with European culture and issues that are essential to the Chumash regarding honor, valor and character.',
     para2: 'Lands of our Ancestors is a good novel for our children--a pleasurable read that explains a serious period in the setting of Chumash families, society and the challenges of the massive intrusion towards a People. A creative, inventive narrative of atonement, that with proper orientation and instructions, can lead to further discussion, which has long been ignored. Makes a great read and gift.',
     name: 'Marcus V. Lopez Chairman, Barbareño Chumash Tribal Council Snr. Producer, American Indian Airwaves/Coyote Radio/KPFK, Southern California'

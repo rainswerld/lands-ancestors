@@ -5,11 +5,15 @@
 }
 
 .contact-header {
-  padding: 30px;
+  padding-top: 30px;
 }
 
 .contact {
   padding: 20px;
   margin-top: 15px;
   border: 1px solid black;
+}
+
+h4 {
+  padding: 20px;
 }

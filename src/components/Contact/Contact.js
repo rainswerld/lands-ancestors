@@ -4,8 +4,8 @@ import './Contact.css'
 function Contact() {
   return (
     <div className='center-text'>
-      <h1 className="contact-header">Contact The Author</h1>
-      <h4>To get a quote for your School or Organization Contact Tribal Eye Productions</h4>
+      <h1 className="contact-header">Contact The Author/Publisher</h1>
+      <h4>Gary Robinson of Tribal Eye Productions offers educational discounts to schools and organizations that buy classroom sets or books in bulk. Contact Gary by email or phone to get a price quote or more information.</h4>
       <div className="container">
         <div className="row">
           <div className="col-md-4 col-sm-12 contact">

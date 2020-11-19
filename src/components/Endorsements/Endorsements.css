@@ -6,6 +6,7 @@
 .chumash {
   color: #5E0707;
   padding: 10px;
+  margin: -35px;
   background-color: #EDDCC7;
   border: 1px solid #CBB497;
   box-shadow: 5px 10px #D3BDA1;
@@ -13,6 +14,8 @@
 }
 
 .endorse-header {
+  padding-top: 30px;
+  padding-bottom: 30px;
   text-align: center;
   text-decoration: underline;
 }

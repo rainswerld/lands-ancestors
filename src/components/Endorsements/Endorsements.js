@@ -6,19 +6,27 @@ import { Jumbotron, Container } from 'react-bootstrap'
 function Endorsements() {
   const endorse = endorsements.endorsements
   const jumboColors = {
+    backgroundColor: 'rgb(112, 121, 113, 1)',
+    marginBottom: '-60px'
+  }
+  const chumashEnd = {
+    backgroundColor: 'rgb(112, 121, 113, 1)',
+    marginBottom: '-20px'
+  }
+  const finalEnd = {
     backgroundColor: 'rgb(112, 121, 113, 1)'
   }
 
   return (
     <div className="bg-colors">
-    <Jumbotron style={jumboColors} fluid>
+    <Container>
+      <h1 className="endorse-header">Endorsements</h1>
+      </Container>
+    <Jumbotron style={chumashEnd} fluid>
       <Container>
         <h4 className="chumash">{endorse.chumash.para}</h4>
       </Container>
     </Jumbotron>
-    <Container>
-      <h1 className="endorse-header">Endorsements</h1>
-      </Container>
       <Jumbotron style={jumboColors} fluid>
         <Container className="shadow-box">
           <h5 className="big">{endorse.shelleyA.big}</h5>
@@ -69,7 +77,7 @@ function Endorsements() {
           <h5 className="text-right">-- {endorse.careyMc.name}</h5>
         </Container>
       </Jumbotron>
-      <Jumbotron style={jumboColors} fluid>
+      <Jumbotron style={finalEnd} fluid>
         <Container className="shadow-box">
           <h5 className="big">{endorse.marcusV.big}</h5>
           <p>{endorse.marcusV.para}</p>
