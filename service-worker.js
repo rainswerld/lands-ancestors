@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/lands-ancestors/precache-manifest.fd8106d0a081e16d224f3488cf71c13c.js"
+  "/lands-ancestors/precache-manifest.442dbf68ef78fd2673931a32979c5fb2.js"
 );
 
 self.addEventListener('message', (event) => {
