@@ -7,7 +7,11 @@
   margin: 25px;
   padding: 25px;
   box-shadow: 5px 10px #D3BDA1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 
 .welcome-teachers {
   border: 1px solid #D3BDA1;

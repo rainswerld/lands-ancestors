@@ -4,7 +4,7 @@ import { FcNightLandscape } from 'react-icons/fc'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import './Navbar.css'
 import { IconContext } from 'react-icons/lib'
-import urlConfig from '../urlConfig.js'
+// import urlConfig from '../urlConfig.js'
 
 function Navbar() {
   const [click, setClick] = useState(false)
@@ -32,18 +32,18 @@ function Navbar() {
     <IconContext.Provider value={{ color: '#fff' }}>
       <div className="navbar">
         <div className="navbar-container container">
-          <Link to={urlConfig + '/'} className="navbar-logo" onClick={closeMobileMenu}>
+          <Link to='/' className="navbar-logo" onClick={closeMobileMenu}>
             Lands Of Our Ancestors
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             {click ? <FaTimes /> : <FaBars />}
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-            <li className="nav-item"><Link to={urlConfig + '/books'} className="nav-links" onClick={closeMobileMenu}>BOOKS</Link></li>
-            <li className="nav-item"><Link to={urlConfig + '/teacher-guides'} className="nav-links" onClick={closeMobileMenu}>TEACHER GUIDES</Link></li>
-            <li className="nav-item"><Link to={urlConfig + '/endorsements'} className="nav-links" onClick={closeMobileMenu}>ENDORSEMENTS</Link></li>
-            <li className="nav-item"><Link to={urlConfig + '/students'} className="nav-links" onClick={closeMobileMenu}>STUDENT RESPONSES</Link></li>
-            <li className="nav-item"><Link to={urlConfig + '/contact'} className="nav-links" onClick={closeMobileMenu}>CONTACT</Link></li>
+            <li className="nav-item"><Link to='/books' className="nav-links" onClick={closeMobileMenu}>BOOKS</Link></li>
+            <li className="nav-item"><Link to='/teacher-guides' className="nav-links" onClick={closeMobileMenu}>TEACHER GUIDES</Link></li>
+            <li className="nav-item"><Link to='/endorsements' className="nav-links" onClick={closeMobileMenu}>ENDORSEMENTS</Link></li>
+            <li className="nav-item"><Link to='/students' className="nav-links" onClick={closeMobileMenu}>STUDENT RESPONSES</Link></li>
+            <li className="nav-item"><Link to='/contact' className="nav-links" onClick={closeMobileMenu}>CONTACT</Link></li>
           </ul>
         </div>
       </div>

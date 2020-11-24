@@ -13,36 +13,35 @@ import StudentRes from './components/Students/StudentRes.js'
 import Contact from './components/Contact/Contact.js'
 import TeacherGuides from './components/TeacherGuides/TeacherGuides.js'
 import 'react-image-lightbox/style.css'
-import urlConfig from './urlConfig.js'
+// import urlConfig from './urlConfig.js'
 
 function App() {
   return (
     <Router className="wrapper">
       <Navbar />
       <Switch>
-        <Route exact path={urlConfig + '/'} render={() => (
+        <Route exact path='/' render={() => (
           <Fragment>
             <Banner />
             <Welcome />
           </Fragment>
         )}/>
-        <Route exact path={urlConfig + '/books'} render={() => (
+        <Route exact path='/books' render={() => (
             <Fragment>
-              <Banner />
               <WelcomeBooks />
               <BookCard className="books"/>
             </Fragment>
         )}/>
-        <Route exact path={urlConfig + '/endorsements'} render={() => (
+        <Route exact path='/endorsements' render={() => (
             <Endorsements />
         )}/>
-        <Route exact path={urlConfig + '/students'} render={() => (
+        <Route exact path='/students' render={() => (
             <StudentRes />
         )}/>
-        <Route exact path={urlConfig + '/contact'} render={() => (
+        <Route exact path='/contact' render={() => (
             <Contact />
         )}/>
-        <Route exact path={urlConfig + '/teacher-guides'} render={() => (
+        <Route exact path='/teacher-guides' render={() => (
           <Fragment>
             <WelcomeTeachers />
             <TeacherGuides />
