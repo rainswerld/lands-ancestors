@@ -11,6 +11,17 @@
   text-decoration: underline;
 }
 
+.row-time {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.student-pic {
+  padding: 5px;
+}
+
 .img {
   padding: 10px;
   margin: 10px;
