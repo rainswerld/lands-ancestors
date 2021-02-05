@@ -13,6 +13,7 @@ import StudentRes from './components/Students/StudentRes.js'
 import Contact from './components/Contact/Contact.js'
 import TeacherGuides from './components/TeacherGuides/TeacherGuides.js'
 import 'react-image-lightbox/style.css'
+import TrueHistory from './components/TrueHistory/TrueHistory.js'
 // import urlConfig from './urlConfig.js'
 
 function App() {
@@ -32,6 +33,15 @@ function App() {
               <BookCard className="books"/>
             </Fragment>
         )}/>
+        <Route exact path='/teacher-guides' render={() => (
+          <Fragment>
+            <WelcomeTeachers />
+            <TeacherGuides />
+          </Fragment>
+        )}/>
+        <Route exact path='/true-history' render={() => (
+            <TrueHistory />
+        )}/>
         <Route exact path='/endorsements' render={() => (
             <Endorsements />
         )}/>
@@ -40,12 +50,6 @@ function App() {
         )}/>
         <Route exact path='/contact' render={() => (
             <Contact />
-        )}/>
-        <Route exact path='/teacher-guides' render={() => (
-          <Fragment>
-            <WelcomeTeachers />
-            <TeacherGuides />
-          </Fragment>
         )}/>
       </Switch>
       <Footer className="footer"/>

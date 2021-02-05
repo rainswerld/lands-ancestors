@@ -55,3 +55,10 @@
 .quote {
   font-style: italic;
 }
+
+.h4-text {
+  margin: -5px;
+  font-size: 20px;
+  color: #5E0707;
+  text-align: center;
+}
