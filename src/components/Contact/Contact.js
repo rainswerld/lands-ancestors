@@ -5,7 +5,7 @@ function Contact() {
   return (
     <div className='center-text'>
       <h1 className="contact-header">Contact The Author/Publisher</h1>
-      <h4>Gary Robinson of Tribal Eye Productions offers educational discounts to schools and organizations that buy classroom sets or books in bulk. Contact Gary by email or phone to get a price quote or more information.</h4>
+      <h4>Tribal Eye Productions offers educational discounts to schools and organizations that buy classroom sets or books in bulk. Contact author/publisher Gary Robinson by email or phone to request a price quote or to get more information.</h4>
       <div className="container">
         <div className="row">
           <div className="col-md-4 col-sm-12 contact">
@@ -23,8 +23,9 @@ function Contact() {
             <h5>Phone:</h5>
             <h5><a href="tel://8052459630">(805) 245-9630</a></h5>
           </div>
-          </div>
         </div>
+          <img className="row image-styled" src={require("../../assets/CAHistTimelineRT-clear.png")} alt="history timeline"/>
+      </div>
     </div>
   )
 }
