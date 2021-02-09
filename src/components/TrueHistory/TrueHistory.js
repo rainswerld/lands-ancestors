@@ -6,8 +6,6 @@ function Contact() {
   return (
     <div className='center-text'>
     <TrueHistoryBanner />
-      <h1 className="contact-header">Contact The Author/Publisher</h1>
-      <h4>Gary Robinson of Tribal Eye Productions offers educational discounts to schools and organizations that buy classroom sets or books in bulk. Contact Gary by email or phone to get a price quote or more information.</h4>
       <div className="container">
         <div className="row vimeo-parent">
           <div className="col-md-3 col-sm-12">
