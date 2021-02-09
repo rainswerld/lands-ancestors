@@ -8,22 +8,24 @@ function Contact() {
     <TrueHistoryBanner />
       <div className="container">
         <div className="row vimeo-parent">
-          <div className="col-md-3 col-sm-12">
+          <figure className="col-md-3 col-sm-12 figure">
             <a href="https://vimeo.com/286700932" target="_blank">
             <img
               src={require('../../assets/vimeo-graphics/HearingHistoricalTrauma.png')}
               alt="hearing historical trauma"
               className="d-block w-100"
               /></a>
-          </div>
-          <div className="col-md-3 col-sm-12">
+              <figcaption>Click Image to Watch Video</figcaption>
+          </figure>
+          <figure className="col-md-3 col-sm-12 figure">
             <a href="https://vimeo.com/361500261" target="_blank">
             <img
               src={require('../../assets/vimeo-graphics/OtherSide-MainImage.jpg')}
               alt="the other side"
               className="d-block w-100"
               /></a>
-          </div>
+              <figcaption className="padding">Click Image to Watch Video</figcaption>
+          </figure>
           <div className="col-md-3 col-sm-12">
             <a href="https://vimeo.com/248025380" target="_blank">
             <img
@@ -31,6 +33,7 @@ function Contact() {
               alt="mission opening"
               className="d-block w-100"
               /></a>
+              <figcaption className="padding">Click Image to Watch Video</figcaption>
           </div>
           <div className="col-md-3 col-sm-12">
             <p>Historic Road</p>
