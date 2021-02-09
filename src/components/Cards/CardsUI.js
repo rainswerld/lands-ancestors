@@ -17,7 +17,7 @@ function BookCard() {
                   </Card.Text>
                 </Card.Body>
                 <Card.Footer className="buttons">
-                  <small className="text-muted btn"><Button href="https://www.amazon.com/Lands-Our-Ancestors-Gary-Robinson/dp/0692780181/ref=sr_1_1?dchild=1&keywords=lands+of+our+ancestors&qid=1603908795&sr=8-1" target="_blank" variant="primary">Book</Button>
+                  <small className="text-muted btn"><Button href="https://www.amazon.com/Lands-Our-Ancestors-Gary-Robinson/dp/0692780181/ref=sr_1_1?dchild=1&keywords=lands+of+our+ancestors&qid=1603908795&sr=8-1" target="_blank" variant="primary">Buy Book</Button>
                   </small>
                 </Card.Footer>
             </Card>
@@ -32,7 +32,7 @@ function BookCard() {
                   </Card.Text>
                 </Card.Body>
                 <Card.Footer className="buttons">
-                  <small className="text-muted btn"><Button href="https://www.amazon.com/Lands-Our-Ancestors-Book-Two/dp/0980027284/ref=sr_1_3?dchild=1&keywords=lands+of+our+ancestors&qid=1603908795&sr=8-3" target="_blank" variant="primary">Book</Button>
+                  <small className="text-muted btn"><Button href="https://www.amazon.com/Lands-Our-Ancestors-Book-Two/dp/0980027284/ref=sr_1_3?dchild=1&keywords=lands+of+our+ancestors&qid=1603908795&sr=8-3" target="_blank" variant="primary">Buy Book</Button>
                   </small>
                 </Card.Footer>
             </Card>
@@ -47,7 +47,7 @@ function BookCard() {
                   </Card.Text>
                 </Card.Body>
                 <Card.Footer className="buttons">
-                  <small className="text-muted btn"><Button href="https://www.amazon.com/Lands-our-Ancestors-Book-Three/dp/0578495163/ref=sr_1_2?dchild=1&keywords=lands+of+our+ancestors&qid=1603908795&sr=8-2" target="_blank" variant="primary">Book</Button>
+                  <small className="text-muted btn"><Button href="https://www.amazon.com/Lands-our-Ancestors-Book-Three/dp/0578495163/ref=sr_1_2?dchild=1&keywords=lands+of+our+ancestors&qid=1603908795&sr=8-2" target="_blank" variant="primary">Buy Book</Button>
                   </small>
                 </Card.Footer>
             </Card>
