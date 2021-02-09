@@ -1,6 +1,7 @@
 import React from 'react'
 import './TrueHistory.css'
 import TrueHistoryBanner from './TrueHistoryBanner.js'
+import pdf from '../../assets/vimeo-graphics/HistoricRoad-LoRes.pdf'
 
 function Contact() {
   return (
@@ -36,7 +37,13 @@ function Contact() {
               <figcaption className="padding">Click Image to Watch Video</figcaption>
           </div>
           <div className="col-md-3 col-sm-12">
-            <p>Historic Road</p>
+          <a href={pdf}>
+          <img
+            src={require('../../assets/vimeo-graphics/HistoricRoadImage.jpg')}
+            alt="mission opening"
+            className="d-block w-100"
+            /></a>
+            <figcaption className="padding">Click Image to Download PDF</figcaption>
           </div>
           </div>
         </div>
