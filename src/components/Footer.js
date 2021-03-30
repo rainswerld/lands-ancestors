@@ -9,7 +9,7 @@ function Footer() {
         <div className="footer-bottom text-center">
             <h5>California History from a Native Viewpoint</h5>
             <h5><a href="contact">Contact Us</a></h5>
-            <p className="text-xs-center">&copy;{new Date().getFullYear()} Lands Of Our Ancestors </p>
+            <p className="text-xs-center">&copy;{new Date().getFullYear()} Tribal Eye Productions </p>
         </div>
       </div>
     </FooterContainer>

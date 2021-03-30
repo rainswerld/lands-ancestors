@@ -13,7 +13,7 @@ function BookCard() {
                 <Card.Body className="card-color">
                   <Card.Title>Book One: Mission Period</Card.Title>
                   <Card.Text>
-                    Book One of the Lands of our Ancestors series begins this multi-generational, historical saga, depicting what life might have been like for on Chumash family during the Mission Period, the Mexican Rancho Era, the Gold Rush and the early years of California statehood.
+                    This multi-generational, historical saga begins with Book One by depicting what life might have been like during the Spanish Mission Era, as seen through the eyes of two Chumash boys. 
                   </Card.Text>
                 </Card.Body>
                 <Card.Footer className="buttons">
