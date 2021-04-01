@@ -5,6 +5,10 @@
   justify-content: center;
 }
 
+.book-card {
+  padding: 10px;
+}
+
 .card {
   margin: 0 auto;
   float: none;
@@ -17,7 +21,6 @@
 
 .card-color {
   background-color: #FFEDC4;
-  height: 830px;
 }
 
 .btn {

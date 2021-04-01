@@ -7,13 +7,13 @@ function BookCard() {
     <Container>
       <CardDeck className="books justify-content-center">
         <Row>
-          <Col lg={4} md={12} sm={12}>
+          <Col className='book-card' lg={4} md={6} sm={12}>
             <Card className="book card card-color">
                 <a href="https://www.amazon.com/Lands-Our-Ancestors-Gary-Robinson/dp/0692780181/ref=sr_1_1?dchild=1&keywords=lands+of+our+ancestors&qid=1603908795&sr=8-1" target="_blank"><Card.Img variant="top" src={require('../../assets/LOOA-1-FrontCvr.jpg')} alt="Lands Of Our Ancestors Book One" /></a>
                 <Card.Body className="card-color">
                   <Card.Title>Book One: Mission Period</Card.Title>
                   <Card.Text>
-                    This multi-generational, historical saga begins with Book One by depicting what life might have been like during the Spanish Mission Era, as seen through the eyes of two Chumash boys. 
+                    This multi-generational, historical saga begins with Book One by depicting what life might have been like during the Spanish Mission Era, as seen through the eyes of two Chumash boys.
                   </Card.Text>
                 </Card.Body>
                 <Card.Footer className="buttons">
@@ -22,7 +22,7 @@ function BookCard() {
                 </Card.Footer>
             </Card>
           </Col>
-          <Col lg={4} md={12} sm={12}>
+          <Col className='book-card' lg={4} md={6} sm={12}>
             <Card className="book card card-color">
                 <a href="https://www.amazon.com/Lands-Our-Ancestors-Book-Two/dp/0980027284/ref=sr_1_3?dchild=1&keywords=lands+of+our+ancestors&qid=1603908795&sr=8-3" target="_blank"><Card.Img variant="top" src={require('../../assets/LOOA-2-FrontCvr.jpg')} alt="Lands Of Our Ancestors Book One" /></a>
                 <Card.Body className="card-color">
@@ -37,7 +37,7 @@ function BookCard() {
                 </Card.Footer>
             </Card>
           </Col>
-          <Col lg={4} md={12} sm={12}>
+          <Col className='book-card' lg={4} md={6} sm={12}>
             <Card className="book card card-color">
                 <a href="https://www.amazon.com/Lands-our-Ancestors-Book-Three/dp/0578495163/ref=sr_1_2?dchild=1&keywords=lands+of+our+ancestors&qid=1603908795&sr=8-2" target="_blank"><Card.Img variant="top" src={require('../../assets/LOOA-3-FrontCvr.jpg')} alt="Lands Of Our Ancestors Book One" /></a>
                 <Card.Body className="card-color">
