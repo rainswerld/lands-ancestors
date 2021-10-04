@@ -7,6 +7,7 @@
   margin: 25px;
   padding: 25px;
   box-shadow: 5px 10px #D3BDA1;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,6 +26,10 @@
   font-size: 50px;
   text-align: center;
   font-family: var(--font);
+}
+
+.title {
+  margin-bottom: -6px;
 }
 
 .header-text-teach {
